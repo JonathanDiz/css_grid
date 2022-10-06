@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 3fr 3fr 3fr 3fr 3fr;
+  grid-template-areas:
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item7"
+    "item6"
+    "item5";
+}
